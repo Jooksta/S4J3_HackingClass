@@ -1,5 +1,5 @@
 # BIENVENUE
-Ce repo contient l'exercice The Hacking Class du Jour 18 de la formation THP. 
+Ce repo contient l'exercice "The Hacking Class" du Jour 18 de la formation THP. 
 
 Cet exercice consiste à créer une base de données en utilisant Ruby on Rails et Active Record.
 
