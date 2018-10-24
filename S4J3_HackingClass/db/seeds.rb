@@ -15,5 +15,5 @@ end
 
 
 10.times do
-	student = Students.create!(first_name: Faker::Games::LeagueOfLegends.champion, last_name: Faker::Games::LeagueOfLegends.rank, course_id_id: Faker::Number.between(0,10), inscription: Faker::Number.between(0,1))
+	student = Students.create!(first_name: Faker::Games::LeagueOfLegends.champion, last_name: Faker::Games::LeagueOfLegends.rank, course_id: Faker::Number.between(0,10), inscription: Faker::Number.between(0,1))
 end
