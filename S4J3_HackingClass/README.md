@@ -1,24 +1,11 @@
-# README
+Salut, 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bienvenue sur ce repo qui comporte l'exercice Hacking Class qui consiste à créer une base de données avec des conditions particulières en utilisant Ruby on Rails et Active Record.
 
-Things you may want to cover:
 
-* Ruby version
+Cet exercice a été réalisé en pair-programming par Côme Hutin, Arthus Simons, Marie Isnard, Joel Pereira Faria
 
-* System dependencies
+Positionnez-vous dans le dossier avec le terminal et tapez la commande "bundle install" 
 
-* Configuration
+Ruby version => 2.5.1 (other gems, cf Gemfile)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
