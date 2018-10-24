@@ -9,11 +9,11 @@
 require 'faker'
 
 10.times do 
-	course = Course.create!(name: Faker::Course.name)
+	course = Course.create!(name: Faker::Games::LeagueOfLegends.quote)
 end
 
 
 
-10.times do |index|
-	student = Students.create!(first_name: Faker::Games::LeagueOfLegends.champion, last_name: Faker::Games::LeagueOfLegends.rank, course_id_id: Faker::Number.between(0;5), inscription: Faker::Number.between(0,1))
+10.times do
+	student = Students.create!(first_name: Faker::Games::LeagueOfLegends.champion, last_name: Faker::Games::LeagueOfLegends.rank, course_id_id: Faker::Number.between(0,10), inscription: Faker::Number.between(0,1))
 end
